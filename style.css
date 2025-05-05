@@ -7,6 +7,7 @@ body {
     height: 100vh; /* Faz o body ocupar 100% da altura da tela */
     margin: 0; /* Remove a margem padrão */
     text-align: center; /* Centraliza os textos */
+    background-color: deeppink;
 
 
 /* Estilo para a div que contém a imagem */
@@ -18,16 +19,23 @@ body {
 img {
     max-width: Defina um tamanho; /* A imagem nunca ultrapassará a largura da tela */
     height: auto; /* Mantém a proporção da imagem */
+
 }
 
-/* Estilo para o título h1 */
+
 h1 {
-    color:#7d5b8c;
+    color: aliceblue;
     margin-top: Defina o tamanho da fonte; /* Espaço superior */
-}
+}}
 
-/* Estilo para o subtítulo h2 */
+
 h2 {
-    color:#7d5b8c;
+    color: rgb(12, 235, 216);
+    margin-top: Defina um tamnho; /* Espaço superior */
+}}
+
+
+h3 {
+    color: rgb(228, 230, 231);
     margin-top: Defina um tamnho; /* Espaço superior */
 }}
