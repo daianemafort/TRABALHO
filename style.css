@@ -7,8 +7,9 @@ body {
     height: 100vh; /* Faz o body ocupar 100% da altura da tela */
     margin: 0; /* Remove a margem padrão */
     text-align: center; /* Centraliza os textos */
-    background-color: deeppink;
-
+    background-image: url('numsei.jpg');
+  background-size: cover;
+  background-position: center;
 
 /* Estilo para a div que contém a imagem */
 .imagem-container {
@@ -32,10 +33,53 @@ h1 {
 h2 {
     color: rgb(12, 235, 216);
     margin-top: Defina um tamnho; /* Espaço superior */
-}}
+}
 
 
 h3 {
     color: rgb(228, 230, 231);
     margin-top: Defina um tamnho; /* Espaço superior */
+}
+/* Estilo para o body */
+body
+{
+display: flex;
+flex-direction: column; /* Organiza os elementos verticalmente */
+justify-content: center; /* Centraliza no eixo vertical */
+align-items: center; /* Centraliza no eixo horizontal */
+height: 100vh; /* Faz o body ocupar 100% da altura da tela */
+margin: 0; /* Remove a margem padrão */
+text-align: center; /* Centraliza os textos */
+
+
+/* Estilo para a div que contém a imagem */
+.imagem-container {
+text-align: center; /* Garante que a imagem fique centralizada */
+}
+
+/* Estilo para as imagens */
+img {
+max-width: 10%; /* A imagem nunca ultrapassará a largura da tela */
+height: auto; /* Mantém a proporção da imagem */
+}
+
+/* Estilo para o título h1 */
+h1 {
+color:Escolha uma cor;
+margin-top: Defina o tamanho da fonte; /* Espaço superior */
+}
+
+/* Estilo para o subtítulo h2 */
+h2 {
+color:Escolha uma cor;
+margin-top: Defina um tamnho; /* Espaço superior */
+
+/* Estilo para o subtítulo h3 */
+h3 {
+color:Escolha uma cor;
+margin-top: 30%; /* Espaço superior */
 }}
+
+background-image: url(depositphotos_227697692-stock-illustration-businessman-behind-a-laptop-line.jpg);
+background-size: cover;
+}
